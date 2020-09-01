@@ -1,0 +1,33 @@
+.newsCard > img{
+ height: 300px;
+ object-fit: contain;
+ width: 400px;
+}
+
+.newsCard{
+    color: white !important;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms ease-in;
+}
+
+.newsCard:hover {
+ transform: scale(1.09);
+}
+
+
+.newsCard >h2 {
+  padding-top: 10px;
+  /* color: white; */
+}
+
+
+
+.newsCard_stats{
+  display: none;
+}
+
+.newsCard:hover > p{
+  display: inline;
+}
